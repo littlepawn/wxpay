@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "首页",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff",
+    "enablePullDownRefresh": true
+  },
+  "debug": true
+}

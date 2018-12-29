@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<style>
+	.contain{
+		display: flex;
+		width: 500px;
+		height: 400px;
+		padding: 10px;
+		border: 1px solid black;
+	}
+	.contain div{
+		flex: 1;
+		padding: 10px;
+		border: 1px solid red;
+	}
+	.contain div:nth-child(2) {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.contain div:nth-child(2) p{
+		width: 100%;
+		height: 30%;
+		border: 1px solid green;
+	}
+</style>
+<body>
+	<div class="contain">
+		<div></div>
+		<div>
+			<p></p>
+			<p></p>
+		</div>
+	</div>
+</body>
+</html>
